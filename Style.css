@@ -250,7 +250,7 @@ form button:hover {
 .home-description {
     max-width: 700px;
     margin: 30px auto 60px auto;
-    padding: 20px 30px;
+    padding: 40px 0;
     background-color: #e6f0ff;
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0, 64, 128, 0.1);
