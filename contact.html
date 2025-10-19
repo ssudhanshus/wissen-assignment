@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <hr>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button
+        type="button"
+        class="navbar-toggle collapsed"
+        data-toggle="collapse"
+        data-target="#sidebar-menu"
+      >
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <span class="header visible-xs-inline">Menu</span>
+    </div>
+    <div class="navbar-center text-center hidden-xs">
+      <header>
+      <h1>Our Bank</h1>
+      </header>
+    </div>
+  </div>
+</nav>
+
+
+  <div class="container-fluid">
+  <div class="row">
+    <!-- Sidebar -->
+    <div
+      class="col-sm-3 col-md-2 collapse navbar-collapse sidebar"
+      id="sidebar-menu"
+    >
+      <ul class="nav nav-pills nav-stacked">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="netbanking.html">NetBanking</a></li>
+        <li class="active"><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+    <section class="home-description">
+	<div class="card">
+    <h3>Contact US</h3>
+    <ul>
+        <li>Pnone : +91 9876543210</li>
+        <li>Email : sample@mail.com</li>
+        <li>Address : Bangalore 560066</li>
+    </ul>
+    </div>
+
+     <form action="/contact.html" method="post">
+        <h2>Write Us</h2>
+
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required placeholder="Your full name" />
+        </br></br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required placeholder="your.email@example.com" />
+        </br></br>
+
+
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" required placeholder="Subject of your message" />
+        </br></br>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required placeholder="Write your message here..."></textarea>
+        </br></br>
+
+        <input type="submit" value="send">
+        <input type="reset" value="Reset">
+    </form>
+    </section>
+
+
+
+    <footer style="text-align: center; position: fixed; bottom: 0; width: 100%;">
+        www.ourbank.com
+    </footer>
+
+</body>
+</html>
