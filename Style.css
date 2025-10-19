@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  padding-top: 100px; /* adjust this based on navbar height */
-  font-family: Arial, sans-serif;
+  padding-top: 98px; /* adjust this based on navbar height */
+  font-family: Roboto, sans-serif;
   background-color: #f0f8ff;
   padding-bottom: 70px;
   border: 3px solid #004080;
